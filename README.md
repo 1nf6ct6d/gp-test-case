@@ -46,6 +46,26 @@ pip install -r requirements.txt
 
 ### 4. Создайте и заполните `.env` по примеру `.env/example`
 
+### 5. Запустите скрипты в БД, находящиеся в `SQL/...` 
+
+---
+
+## Запуск проекта
+
+**Из корня проекта**
+
+**WIN:**
+```PowerShell
+python SCRIPTS/ETL/api_to_stg.py
+python SCRIPTS/ETL/stg_to_dds.py
+```
+
+**macOS/Linux:**
+```bash
+python3 SCRIPTS/ETL/api_to_stg.py
+python3 SCRIPTS/ETL/stg_to_dds.py
+```
+
 ---
 
 ## Проверка
