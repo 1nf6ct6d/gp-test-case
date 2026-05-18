@@ -71,3 +71,18 @@ python3 SCRIPTS/ETL/stg_to_dds.py
 ## Проверка
 
 **Обратитесь к `SQL/CHECKS.md` для быстрой проверки рабьоты.**
+
+---
+
+## Структура
+
+### STG
+
+- `stg.api_posts` - сырой слой данных.
+
+### DDS
+
+- `dds.hub_user` - "юзер" хаб;
+- `dds.hub_post` - хаб постов;
+- `dds.link_user_post` - линк пользователя и поста;
+- `dds.sat_post` - сателлит поста.  
